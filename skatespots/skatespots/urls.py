@@ -1,7 +1,7 @@
 from django.contrib import admin
 from django.urls import path, include
 
-
 urlpatterns = [
-    path('', include('spots.urls')),
+    path('', include('frontend.urls')),
+    path('', include('spots.urls'))
 ]
