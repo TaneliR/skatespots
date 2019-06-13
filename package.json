@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "webpack --mode development ./skatespots/frontend/src/index.js --output ./skatespots/frontend/static/frontend/main.js",
+    "dev": "webpack --mode development --watch ./skatespots/frontend/src/index.js --output ./skatespots/frontend/static/frontend/main.js",
     "build": "webpack --mode production ./skatespots/frontend/src/index.js --output ./skatespots/frontend/static/frontend/main.js"
   },
   "repository": {
